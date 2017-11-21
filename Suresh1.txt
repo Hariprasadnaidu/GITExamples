@@ -1,0 +1,22 @@
+This DevOps Training helps you master Configuration Management, Continuous Integration and Continuous Deployment, Continuous Delivery, Continuous Monitoring using DevOps tools - Git, Chef, Docker, Jenkins, Puppet, Ansible and Nagios to automate multiple steps in SDLC.
+
+1. Configure gitlab server
+2. Architecture
+3. Commands
+4. How to use this in real time environment for project management
+5. What are the different commands
+
+6. Jenkins	
+
+
+
+GIT
+===
+ -> Downloaded the package
+ -> Installed GITLAB -CE (Community Edition)
+ -> After that, executed the gitlab ctl reconfigure command
+ -> Reconfigre command is going to execute the cookbooks in the backend
+ -> Cookbooks will contains multiple components going to be excuted (all the services) 
+ 
+ gitlab is distributed environment, we are going to do everything in our local, there is no impact for other users while devoloping/modifying the code, Once we push it will ask if somebody is modified.
+ 
